@@ -9,3 +9,6 @@ output.bak/
 .psc-ide-port
 /.spago/
 .purs-repl
+java_output/
+classes/
+.spago/
