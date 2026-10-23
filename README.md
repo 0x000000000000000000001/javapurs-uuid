@@ -1,5 +1,9 @@
 # purescript-uuid
 
+Java port of the PureScript `uuid` package. See the
+[port maintenance guide](../javapurs/docs/port-maintenance.md)
+for source layout, local dependency selection and JVM validation.
+
 ## JVM tests
 
 `./bin/test` selects `uuid` in the [common isolated runner](../javapurs/docs/testing.md#port-particulier). It awaits the original Spec tests, rejects failures/pending results, and requires all six successes and a completion marker. Five negative probes cover the waiting boundary and captured Spec failures.
